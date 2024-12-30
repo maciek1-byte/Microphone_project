@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Nagrywanie</string>
+   <string>Recording app</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/app_icon.webp</normaloff>images/app_icon.webp</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="verticalLayoutWidget">
