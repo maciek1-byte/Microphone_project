@@ -64,16 +64,6 @@ def recording(frames, stop_callback):
         p.terminate()
         print("Audio resources released.")
 
-def save_on_desktop(parent):
-    try:
-        file_path, _ = QFileDialog.getSaveFileName(parent, 'Save File', '', 'WAV files (*.wav)')
-        if file_path:
-            print(f"File saved to {file_path}")
-        else:
-            print("Save operation canceled by user.")
-    except Exception as e:
-        print(f"Error saving file: {e}")
-
 def open_from_dektop(parent):
     file_path, _ = QFileDialog.getOpenFileName(parent, 'Open File', '', 'WAV files (*.wav)')
     if file_path:
